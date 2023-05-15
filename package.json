@@ -1,0 +1,23 @@
+{
+  "name": "imageresize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsx src/server.js",
+    "dev": "tsx watch src/server.js",
+    "build": "tsup src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.1.4",
+    "tsup": "^6.7.0",
+    "tsx": "^3.12.7"
+  },
+  "dependencies": {
+    "sharp": "^0.32.1"
+  }
+}
